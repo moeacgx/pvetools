@@ -24,6 +24,8 @@
 ## pveip脚本步骤说明：
 ##### pvelip脚本一键运行：
 
-该脚本采用直接修改ip段的方式修改ip
+该脚本采用直接替换ip段的方式修改ip
 
-`wget https://raw.githubusercontent.com/moeacgx/pvetools/refs/heads/main/pveip.sh -O pveip.sh && chmod +x pveip.sh && sed -i 's/\r//' pveip.sh && ./pveip.sh`
+`bash <(curl -s https://raw.githubusercontent.com/80548262/hous/main/update_network.sh)
+或
+ bash <(wget -qO- https://raw.githubusercontent.com/80548262/hous/main/update_network.sh)`
