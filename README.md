@@ -1,4 +1,5 @@
 ## pvelvm脚本步骤说明：
+##兼容 Ubuntu/Debian
 pvelvm脚本一键运行：
 
 `wget https://raw.githubusercontent.com/moeacgx/pvetools/refs/heads/main/pvelvm.sh -O pvelvm.sh && chmod +x pvelvm.sh && ./pvelvm.sh`
