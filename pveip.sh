@@ -8,7 +8,7 @@ CURRENT_IPV4=$(ip -4 addr show scope global | grep inet | awk '{print $2}')
 CURRENT_IPV6=$(ip -6 addr show scope global | grep inet6 | awk '{print $2}')
 
 # 查询公网 IPv6 地址
-PUBLIC_IPV6=$(curl ipv6.ip.sb)
+PUBLIC_IPV6=$(curl -6 -s https://ident.me)
 
 # 显示当前的内网 IPv4 和 IPv6 地址
 echo "当前的内网 IPv4 地址是: $CURRENT_IPV4"
