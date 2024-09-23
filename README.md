@@ -20,3 +20,10 @@
 `./lvm_expand.sh`
 
 运行后，脚本将自动完成新硬盘的分区、格式化、LVM 添加及逻辑卷扩展。如果你使用的是不同的文件系统，请替换相应的 resize2fs 命令。
+
+## pveip脚本步骤说明：
+##### pvelip脚本一键运行：
+
+该脚本采用直接修改ip段的方式修改ip
+
+`wget https://raw.githubusercontent.com/moeacgx/pvetools/refs/heads/main/pveip.sh -O pveip.sh && chmod +x pveip.sh && sed -i 's/\r//' pveip.sh && ./pveip.sh`
